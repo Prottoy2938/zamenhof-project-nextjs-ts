@@ -20,7 +20,8 @@ export const CTA = () => (
 
     <ChakraLink
       isExternal
-      href="https://www.zamenhof.co.il/translation-quota/"
+      
+      href="https://forms.gle/wrA2mUhEsgUvzRVo9"
       flexGrow={3}
       mx={2}
     >
