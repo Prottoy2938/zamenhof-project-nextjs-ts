@@ -10,7 +10,7 @@ export const Hero = ({ title, description }: { title: string, description: strin
     bgGradient="linear(to-l, #7928CA, #FF0080)"
     bgClip="text"
   >
-    <Heading fontSize="4vw">{title}</Heading>
+    <Heading fontSize={["xl", "6vw", "5vw", "4vw"]}>{title}</Heading>
    
   </Flex>
   <Flex
@@ -19,7 +19,7 @@ export const Hero = ({ title, description }: { title: string, description: strin
     mt={5}
     color="gray.200"
   >
- <Heading  fontSize="2vw">{description}</Heading>
+ <Heading  fontSize={["lg", "4vw", "3vw", "2vw"]}>{description}</Heading>
  </Flex>
 
   </>

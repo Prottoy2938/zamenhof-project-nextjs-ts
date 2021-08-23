@@ -7,16 +7,11 @@ export const CTA = () => (
     flexDirection="row"
     // position="fixed"
     // bottom="0"
-    mt={20}
+    mt="9rem"
     width="100%"
     maxWidth="48rem"
     py={3}
   >
-    {/* <ChakraLink isExternal href="https://chakra-ui.com" flexGrow={1} mx={2}>
-      <Button width="100%" variant="outline" colorScheme="green">
-        contact us
-      </Button>
-    </ChakraLink> */}
 
     <ChakraLink
       isExternal
