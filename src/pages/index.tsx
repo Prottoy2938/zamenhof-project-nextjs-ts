@@ -5,7 +5,9 @@ import {
   List,
   ListIcon,
   ListItem,
+  
 } from '@chakra-ui/react'
+import Head from 'next/head';
 import { CheckCircleIcon, LinkIcon } from '@chakra-ui/icons'
 
 import { Hero } from '../components/Hero'
@@ -16,6 +18,12 @@ import { CTA } from '../components/CTA'
 import { Footer } from '../components/Footer'
 
 const Index = () => (
+  <>
+  <Head>    
+    <title>
+      Zamenhof</title>  <link rel="shortcut icon" href="/favicon.png" />
+</Head>
+
   <Container height="100vh">
     <Hero />
     <Main>
@@ -58,6 +66,7 @@ const Index = () => (
     </Footer> */}
     <CTA />
   </Container>
+  </>
 )
 
 export default Index
