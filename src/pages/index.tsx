@@ -19,36 +19,42 @@ const Index = () => (
   <Container height="100vh">
     <Hero />
     <Main>
-      <Text>
+      {/* <Text>
         Example repository of <Code>Next.js</Code> + <Code>chakra-ui</Code> +{' '}
         <Code>typescript</Code>.
-      </Text>
+      </Text> */}
 
       <List spacing={3} my={0}>
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="green.500" />
           <ChakraLink
             isExternal
-            href="https://chakra-ui.com"
+            href="https://www.zamenhof.co.il/services/"
             flexGrow={1}
             mr={2}
           >
-            Chakra UI <LinkIcon />
+            Business Translation <LinkIcon />
           </ChakraLink>
         </ListItem>
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="green.500" />
-          <ChakraLink isExternal href="https://nextjs.org" flexGrow={1} mr={2}>
-            Next.js <LinkIcon />
+          <ChakraLink isExternal href="https://www.zamenhof.co.il/translation-quota/" flexGrow={1} mr={2}>
+            How much does a translation cost? <LinkIcon />
+          </ChakraLink>
+        </ListItem>
+        <ListItem>
+          <ListIcon as={CheckCircleIcon} color="green.500" />
+          <ChakraLink isExternal href="https://www.zamenhof.co.il/contact-us/" flexGrow={1} mr={2}>
+          Are you left with a question? <LinkIcon />
           </ChakraLink>
         </ListItem>
       </List>
     </Main>
 
     <DarkModeSwitch />
-    <Footer>
+    {/* <Footer>
       <Text>Next ❤️ Chakra</Text>
-    </Footer>
+    </Footer> */}
     <CTA />
   </Container>
 )
