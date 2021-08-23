@@ -12,10 +12,15 @@ export const CTA = () => (
     maxWidth="48rem"
     py={3}
   >
+    <ChakraLink isExternal href="https://www.zamenhof.co.il/contact-us/" flexGrow={1} mx={2}>
+      <Button width="100%" variant="outline" colorScheme="green">
+        contact us
+      </Button>
+    </ChakraLink>
 
     <ChakraLink
       isExternal
-      href="https://github.com/vercel/next.js/blob/canary/examples/with-chakra-ui-typescript"
+      href="https://www.zamenhof.co.il/translation-quota/"
       flexGrow={3}
       mx={2}
     >

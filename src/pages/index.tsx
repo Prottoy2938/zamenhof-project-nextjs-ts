@@ -24,10 +24,11 @@ const Index = () => (
         <Code>typescript</Code>.
       </Text> */}
 
-      <List spacing={3} my={0}>
+      <List spacing={5} my={0}>
         <ListItem>
-          <ListIcon as={CheckCircleIcon} color="green.500" />
+          <ListIcon fontSize="1.2rem" as={CheckCircleIcon} color="green.500" />
           <ChakraLink
+          fontSize="1.2rem"
             isExternal
             href="https://www.zamenhof.co.il/services/"
             flexGrow={1}
@@ -37,14 +38,14 @@ const Index = () => (
           </ChakraLink>
         </ListItem>
         <ListItem>
-          <ListIcon as={CheckCircleIcon} color="green.500" />
-          <ChakraLink isExternal href="https://www.zamenhof.co.il/translation-quota/" flexGrow={1} mr={2}>
+          <ListIcon fontSize="1.2rem" as={CheckCircleIcon} color="green.500" />
+          <ChakraLink isExternal fontSize="1.2rem" href="https://www.zamenhof.co.il/translation-quota/" flexGrow={1} mr={2}>
             How much does a translation cost? <LinkIcon />
           </ChakraLink>
         </ListItem>
         <ListItem>
-          <ListIcon as={CheckCircleIcon} color="green.500" />
-          <ChakraLink isExternal href="https://www.zamenhof.co.il/contact-us/" flexGrow={1} mr={2}>
+          <ListIcon fontSize="1.2rem" as={CheckCircleIcon} color="green.500" />
+          <ChakraLink fontSize="1.2rem" isExternal href="https://www.zamenhof.co.il/contact-us/" flexGrow={1} mr={2}>
           Are you left with a question? <LinkIcon />
           </ChakraLink>
         </ListItem>

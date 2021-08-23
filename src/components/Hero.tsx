@@ -18,6 +18,7 @@ export const Hero = ({ title, description }: { title: string, description: strin
     alignItems="start"
     mt={5}
     color="gray.200"
+    mb={10}
   >
  <Heading  fontSize={["lg", "4vw", "3vw", "2vw"]}>{description}</Heading>
  </Flex>
