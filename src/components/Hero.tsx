@@ -1,6 +1,12 @@
-import { Flex, Heading } from '@chakra-ui/react'
+import { Flex, Heading, useColorMode } from '@chakra-ui/react'
 
-export const Hero = ({ title, description }: { title: string, description: string }) => (
+export const Hero = ({ title, description }: { title: string, description: string }) => {
+  const { colorMode } = useColorMode()
+
+  const color = { light: 'gray.600', dark: 'gray.200' }
+  
+  
+  return (
   <>
   <Flex
     justifyContent="center"
@@ -17,14 +23,14 @@ export const Hero = ({ title, description }: { title: string, description: strin
     justifyContent="start"
     alignItems="start"
     mt={5}
-    color="gray.200"
+    color={color[colorMode]}
     mb={10}
   >
  <Heading  fontSize={["lg", "4vw", "3vw", "2vw"]}>{description}</Heading>
  </Flex>
 
   </>
-)
+)}
 
 Hero.defaultProps = {
   title: 'ZAMENHOF TRANSLATION SERVICE',
