@@ -21,7 +21,7 @@ export const CTA = () => (
     <ChakraLink
       isExternal
       
-      href="https://forms.gle/ySLdw2nhgKZFb4xR6"
+      href="https://forms.gle/fdu4uWsY1x3SXwyP9"
       flexGrow={3}
       mx={2}
     >
